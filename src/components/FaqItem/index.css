@@ -1,0 +1,33 @@
+.faq-item-card {
+  display: flex;
+  flex-direction: column;
+  padding: 3vh;
+  margin: 3vh;
+  border: 2px solid #d7dae6;
+  border-radius: 2vh;
+  width: 100%;
+}
+.question-card {
+  display: flex;
+  justify-content: space-between;
+}
+.question {
+  color: #52606d;
+  font-size: 3vh;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.line {
+  width: 100%;
+  margin: 2vh;
+  align-self: center;
+}
+.answer {
+  color: #9aa5b1;
+  font-weight: 500;
+  font-size: 2vh;
+}
